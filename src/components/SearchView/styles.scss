@@ -1,0 +1,18 @@
+.search-bar {
+    margin: 2em 0;
+    padding: .5em;
+    border: 1px solid #E2E4F0;
+    background: #fff;
+    .search-input{
+        width: 100%;
+        padding-left: 0.5em;
+        .search-button {
+            text-transform: capitalize;
+            background: #0ABAB5;
+        }
+        .search-icon {
+            margin: 0 .125em;
+        }
+    }
+
+}

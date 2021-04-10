@@ -1,0 +1,29 @@
+.forecast-view {
+    margin-top: 2em;
+    .slick-dots {
+        li {
+            button:before {
+                color: #dddfed !important;
+                opacity: 1 !important;
+                font-size: 8px;
+            }
+            &.slick-active {
+                button:before {
+                    color: #fb9827 !important;
+                }
+            }
+        }
+    }
+    .slick-slide div {
+        outline: none;
+    }
+    .forecast-day-card {
+        margin: 0.5em;
+        text-align: center;
+        text-transform: capitalize;
+
+        .forecast-day-temp {
+            font-size: 0.75em;
+        }
+    }
+}
